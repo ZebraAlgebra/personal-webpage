@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://zebraalgebra-personal-page.netlify.app/sitemap.xml
