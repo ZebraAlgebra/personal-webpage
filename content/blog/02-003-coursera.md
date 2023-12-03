@@ -7,11 +7,12 @@ date = 2023-11-18
 
 ![](../coursera.png)
 
-I recently completed the algorithms specialization course offered by Stanford online on Coursera.
-
-In this post, I will try to talk about my thoughts on this course.
+I recently completed the algorithms specialization course offered by Stanford online on Coursera. In this post, I will be sharing my thoughts and experience about this course.
 
 ## Summary
+
+- **Difficulty**: 8.0 out of 10.0
+- **Enjoyment**: 9.5 out of 10.0
 
 - It was a fun ride.
 - Learned a lot, struggled a lot, enjoyed a lot.
