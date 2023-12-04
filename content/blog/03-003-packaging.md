@@ -16,7 +16,7 @@ I recently worked on a school project in the course [ISYE6644 Simulation](https:
 
 Throughout the process I was thinking: well, maybe if I can build, publish this as a Python package, and that people can run `pip install` to install it, wouldn't that be pretty fun?
 
-After going through some tutorials and going through some documentations (which is not an entirely trivial process), I finally published the [package](https://test.pypi.org/project/flusim/0.0.1/) on [testpypi](https://test.pypi.org/).
+After going through some tutorials and going through some documentations (which is not an entirely trivial process), I finally published the [package](https://test.pypi.org/project/flusim/) on [testpypi](https://test.pypi.org/).
 
 ![](../flusim.png)
 

@@ -26,4 +26,4 @@ date = "2023-11-02"
 - `CS50's Intro. to AI with Python` **2023 Spring** @_Harvard Online Course_.
   > Link to my [certificate](https://certificates.cs50.io/da3cca83-2a71-4452-8aa2-c8ca7df9f11c.png?size=letter).
 - `Algorithm Specialization` **2023 Winter** @_Stanford Online_.
-  > Link to my [certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/BHQVPXG5K35U).
+  > Link to my [certificate](https://www.coursera.org/account/accomplishments/specialization/BHQVPXG5K35U).

@@ -9,7 +9,7 @@ date = 2023-12-03
 
 > Link to the [GitHub Repo](https://github.com/ZebraAlgebra/flusim)
 
-> Link to the [published package](https://test.pypi.org/project/flusim/0.0.1/)
+> Link to the [published package](https://test.pypi.org/project/flusim/)
 
 > Link to a [demo Jupyter notebook](https://htmlpreview.github.io/?https://github.com/ZebraAlgebra/flusim/blob/main/notebooks/package_demo.html)
 
