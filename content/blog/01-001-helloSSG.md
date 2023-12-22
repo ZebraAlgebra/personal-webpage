@@ -1,8 +1,11 @@
 +++
-title = "Hello Personal Website 👋 <🛠️ Tools>"
+title = "<🛠️ tools> Hello Personal Website 👋"
 description = "Post on SSGs"
 slug = "01-001"
 date = 2023-11-02
+
+[taxonomies]
+tags = ["tools", "ssg"]
 +++
 
 Under the convention that every first thing starts with **hello**, the name of this post is self-explanatory.

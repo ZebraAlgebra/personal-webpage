@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - course</title>
+    <subtitle>Personal Webpage</subtitle>
+    <link href="https://zebraalgebra-personal-page.netlify.app/tags/course/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://zebraalgebra-personal-page.netlify.app/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-11-18T00:00:00+00:00</updated>
+    <id>https://zebraalgebra-personal-page.netlify.app/tags/course/atom.xml</id>
+    <entry xml:lang="en">
+        <title>&lt;✍️ courses&gt; Stanford Online&#x27;s Algorithm Speciailization on Coursera Review</title>
+        <published>2023-11-18T00:00:00+00:00</published>
+        <updated>2023-11-18T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://zebraalgebra-personal-page.netlify.app/blog/02-003-coursera/" type="text/html"/>
+        <id>https://zebraalgebra-personal-page.netlify.app/blog/02-003-coursera/</id>
+        
+        <content type="html">&lt;p&gt;&lt;img src=&quot;..&#x2F;coursera.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I recently completed the algorithms specialization course offered by Stanford online on Coursera. In this post, I will be sharing my thoughts and experience about this course.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Difficulty&lt;&#x2F;strong&gt;: 8.0 out of 10.0&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Enjoyment&lt;&#x2F;strong&gt;: 9.5 out of 10.0&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;It was a fun ride.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Learned a lot, struggled a lot, enjoyed a lot.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Prof. Tim Roughgarden succeeded in presenting the aesthetical aspects of algorithm design with extreme clarity and deep insights.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Taught&lt;&#x2F;strong&gt; by Prof. Tim Roughgarden&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Structure&lt;&#x2F;strong&gt;: Four modules, each with four programming assignments, four quizes, and one final exam.
+&lt;ul&gt;
+&lt;li&gt;Quizzes are mostly multiple choice questions, but with limited answer attempts.&lt;&#x2F;li&gt;
+&lt;li&gt;Programming assignments are mostly geared towards implementing the algorithms taught in course.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Contents&lt;&#x2F;strong&gt;: Mostly covers&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;what-i-liked-about-this-course&quot;&gt;What I liked about this course:&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;on-contents&quot;&gt;On Contents&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;“Algorithmic design paradigms” is a strong emphasis in this course, instead of problem types &#x2F; data structures, which makes many concepts natural in its own way.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Well-motivated contents, proofs explained with extreme clarity, and a good selection of topics.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Some sections are marked as optional, giving the flexibility for the learners to choose what to learn. For example, I personally really appreciated the freedom to not to deal with red-black trees 🤪.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Personal favorites&lt;&#x2F;strong&gt;: Karger’s ridiculous algorithm, MST algorithms, shortest path algorithms (Dijkstra, Bellman-Ford, Floyd-Warshall, Johnson), Huffman codes, optimal binary trees, knapsack.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;on-assignments&quot;&gt;On Assignments&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;✍️ &lt;strong&gt;For the nonprogramming assignments&lt;&#x2F;strong&gt;: personally, I really enjoyed thinking through those “what if we use this on that &#x2F; what if we modify this part of that” - type of questions.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;🖥️ &lt;strong&gt;For the programming assignments&lt;&#x2F;strong&gt;: these had clear instructions, and learners have the freedom to choose which programming language to use when approaching the problems. Most of the assignments are practicing writing down an algorithm taught in class, and solve a problem supplied with a reasonably large input size.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;In case one gets stuck, the Coursera Forum also has many valuable discussions that one can find help &#x2F; inspiration from.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;suggestions-and-nitpicks&quot;&gt;Suggestions and Nitpicks&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The content on &lt;strong&gt;Kosaraju’s algorithm&lt;&#x2F;strong&gt; for strongly connected components could be improved. The different names for various subroutines, and the lack of a final-put-together pseudo code for this algorithm made things a bit hard to grasp, let along the notion of a “magic ordering” on the vertices.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;The contents are mostly delivered through handwritings. Sometimes the handwritings are messy, which hinders the learning experience by a bit (no pun intended).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;The pseudocodes are written mostly in 1-indexed fashion instead of 0-indexed.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Would hope to see some suggested run time estimates in assignments, but perhaps this is intended for learners to push the limits.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>&lt;✍️ courses&gt; Harvard&#x27;s CS50&#x27;s Intro. to AI with Python Review</title>
+        <published>2023-11-12T00:00:00+00:00</published>
+        <updated>2023-11-12T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://zebraalgebra-personal-page.netlify.app/blog/02-002-cs50/" type="text/html"/>
+        <id>https://zebraalgebra-personal-page.netlify.app/blog/02-002-cs50/</id>
+        
+        <content type="html">&lt;p&gt;In this post, I will be sharing my experience with Harvard’s online course - &lt;strong&gt;CS50’s Intro. to AI with Python Review&lt;&#x2F;strong&gt; (link to &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;pll.harvard.edu&#x2F;course&#x2F;cs50s-introduction-artificial-intelligence-python&quot;&gt;official site&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.edx.org&#x2F;learn&#x2F;artificial-intelligence&#x2F;harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python&quot;&gt;edX&lt;&#x2F;a&gt;).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Difficulty&lt;&#x2F;strong&gt;: 6.5 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Enjoyment&lt;&#x2F;strong&gt;: 9.5 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Taught&lt;&#x2F;strong&gt; by &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;brianyu.me&#x2F;&quot;&gt;Brain Yu&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Format&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;This course is offered on the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.edx.org&#x2F;&quot;&gt;edX&lt;&#x2F;a&gt; platform.&lt;&#x2F;li&gt;
+&lt;li&gt;It it an introductary course that touches upon different topics of AI and gives overviews on these topics.
+&lt;ul&gt;
+&lt;li&gt;Touches some data structure and algorithm stuffs (BFS, DFS, A*)&lt;&#x2F;li&gt;
+&lt;li&gt;as well as machine learning ideas (neural networks, NLP).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;The assignments are…
+&lt;ul&gt;
+&lt;li&gt;mostly graded by autograders, but they are really lenient and easy to work with.&lt;&#x2F;li&gt;
+&lt;li&gt;mostly of the form of completing an essential functionality of a function, with other parts being supplied beforehand.&lt;&#x2F;li&gt;
+&lt;li&gt;question prompts are very clear in what is expected for us to do.&lt;&#x2F;li&gt;
+&lt;li&gt;the related online communities in this course is also really helpful, as well as well-regulated. People are really active on those Discord channels.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;would-i-recommend-this-course&quot;&gt;Would I recommend this course?&lt;&#x2F;h2&gt;
+&lt;p&gt;Absolutely.&lt;&#x2F;p&gt;
+&lt;p&gt;All in all, I would recommend anyone with &lt;strong&gt;intermediate Python experience&lt;&#x2F;strong&gt; (such as knowledge of Python class syntaxes and experience with some of the modules in Python’s standard library) as well as wanting to learn some AI basics taking this course.&lt;&#x2F;p&gt;
+&lt;p&gt;One should also keep in mind that this course is &lt;em&gt;not intended to be an intensive, deep dive into the topics&lt;&#x2F;em&gt;. If you already had a specific topic in mind and wanted to dive real deep into it, perhaps this might not be the correct course for you.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;about-enrollment-and-certificate&quot;&gt;About Enrollment and Certificate&lt;&#x2F;h2&gt;
+&lt;p&gt;One can enroll in this course &lt;strong&gt;for free&lt;&#x2F;strong&gt;. Upon completion, Harvard will give the student a certificate hosted on their website (also for free); however, if you want a certificate offered by edX, then there is a fee to it.&lt;&#x2F;p&gt;
+&lt;p&gt;The certificate looks like this…&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;..&#x2F;edx.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ready-to-take-this-course&quot;&gt;Ready to take this course?&lt;&#x2F;h2&gt;
+&lt;p&gt;Additional details are well-documented on their &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;cs50.harvard.edu&#x2F;ai&#x2F;&quot;&gt;accompanying website&lt;&#x2F;a&gt;. Feel free to also check out &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.edx.org&#x2F;cs50&quot;&gt;their other courses&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>&lt;✍️ courses&gt; GT&#x27;s OMSA course review</title>
+        <published>2023-11-03T00:00:00+00:00</published>
+        <updated>2023-11-03T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://zebraalgebra-personal-page.netlify.app/blog/02-001-omsa/" type="text/html"/>
+        <id>https://zebraalgebra-personal-page.netlify.app/blog/02-001-omsa/</id>
+        
+        <content type="html">&lt;p&gt;Here is a list of courses I am taking &#x2F; planning to take in this program (for the C-track):&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: right&quot;&gt;&lt;strong&gt;Course #&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Semester&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Type&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Status&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;CSE 6040&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2023 Fall&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Core&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;▶️&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;ISYE 6501&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2023 Fall&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Core&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;▶️&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;ISYE 6644&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2023 Fall&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;OR Elect.&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;▶️&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;MGT 8803&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2023 Fall&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Core&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;▶️&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;CS 7643&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2024 Spring&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Track Elect.&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;❓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;CSE 6242&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2024 Spring&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Adv. Core&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;❓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;ISYE 6740&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2024 Spring&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Stat. Elect.&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;❓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;ISYE 8803&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2024 Spring&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Stat. Elect.&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;❓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;MGT 6203&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2024 Spring&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Adv. Core&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;❓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;cse-6040-computing-for-data-analysis&quot;&gt;CSE 6040 Computing for Data Analysis&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Difficulty&lt;&#x2F;strong&gt;: 5.0 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Enjoyment&lt;&#x2F;strong&gt;: 8.5 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Format&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;HW: Weekly basis. All Jupyter notebooks.&lt;&#x2F;li&gt;
+&lt;li&gt;Exams: 3 exams.
+&lt;ul&gt;
+&lt;li&gt;Open book, but no Github Copilot, posting exam questions on forums, or interacting with other people.&lt;&#x2F;li&gt;
+&lt;li&gt;Similar to homeworks and practice problems.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Projects: None.&lt;&#x2F;li&gt;
+&lt;li&gt;Content:
+&lt;ul&gt;
+&lt;li&gt;Basics of data wrangling and numerical computation in Python (data structures, Numpy, Scipy sparse matrices, Pandas)&lt;&#x2F;li&gt;
+&lt;li&gt;Basics of SQL (&lt;code&gt;SELECT&lt;&#x2F;code&gt;, &lt;code&gt;JOIN&lt;&#x2F;code&gt;, &lt;code&gt;WHERE&lt;&#x2F;code&gt;, &lt;code&gt;GROUPBY&lt;&#x2F;code&gt;… clauses).&lt;&#x2F;li&gt;
+&lt;li&gt;Several basic demos of ML algorithms (regression, K-means, PCA).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Tips&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Do HW as soon as possible. More difficult to complete hw under time pressure for coding HWs.&lt;&#x2F;li&gt;
+&lt;li&gt;Do practice questions before exam.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;isye-6501-introduction-to-analytics-modeling&quot;&gt;ISYE 6501 Introduction to Analytics Modeling&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Difficulty&lt;&#x2F;strong&gt;: 4.0 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Enjoyment&lt;&#x2F;strong&gt;: 8.5 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Format&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;HW: Weekly basis. All R markdowns, with a few exceptions:
+&lt;ul&gt;
+&lt;li&gt;For linear programming, Python’s PuLP is needed.&lt;&#x2F;li&gt;
+&lt;li&gt;For discrete event simulation, either Arena or Python’s SimPy are needed.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Exams: 3 exams.&lt;&#x2F;li&gt;
+&lt;li&gt;Project: 1 project, details released near the end of semester.&lt;&#x2F;li&gt;
+&lt;li&gt;Content: Learning how to use some ML models in R on data, assess model quality, as well as teaching some basic data science ideas.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Tips&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Get used to R and R markdown notebooks, as well as figuring out a suitable workflow, since students have to generate a report file every week.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;isye-6644-simulation&quot;&gt;ISYE 6644 Simulation&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Difficulty&lt;&#x2F;strong&gt;: 3.5 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Enjoyment&lt;&#x2F;strong&gt;: 8.0 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Format&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;HW: Weekly basis. Multiple choice questions on Canvas.&lt;&#x2F;li&gt;
+&lt;li&gt;Exams: 3 exams. Allows cheat sheets.&lt;&#x2F;li&gt;
+&lt;li&gt;Project: 1 project.&lt;&#x2F;li&gt;
+&lt;li&gt;Content:
+&lt;ul&gt;
+&lt;li&gt;Probabilities, statistics bootcamps.&lt;&#x2F;li&gt;
+&lt;li&gt;The Arena software,&lt;&#x2F;li&gt;
+&lt;li&gt;Theories for simulating random number generators and stochastic processes.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Tips&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Read Prof. Goldsman’s book on probabilities and stats.&lt;&#x2F;li&gt;
+&lt;li&gt;The tip for having a good score on exams is to compile good cheat sheets.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Misc.&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Prof. Goldsman’s lecture videos has some funny jokes.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;mgt-8803-business-fundamentals-for-analytics&quot;&gt;MGT 8803 Business Fundamentals for Analytics&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Difficulty&lt;&#x2F;strong&gt;: 8.5 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Enjoyment&lt;&#x2F;strong&gt;: 5.5 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Format&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;HW: 2 small ones that accounts for 10% of total grade.&lt;&#x2F;li&gt;
+&lt;li&gt;Exams: 5 exams for each 5 modules (see below). Allows the use of excel. No cheat sheets.&lt;&#x2F;li&gt;
+&lt;li&gt;Project: None.&lt;&#x2F;li&gt;
+&lt;li&gt;Content: 5 modules
+&lt;ul&gt;
+&lt;li&gt;Financial Accounting&lt;&#x2F;li&gt;
+&lt;li&gt;Finance&lt;&#x2F;li&gt;
+&lt;li&gt;Supply Chain&lt;&#x2F;li&gt;
+&lt;li&gt;Business Strategy&lt;&#x2F;li&gt;
+&lt;li&gt;Marketing&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Tips&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;The first two modules are extremely packed with info. For people without background related to these fields, all the concepts in these modules can take a fiar while to be digested. Tips for studying for the first two exams
+&lt;ul&gt;
+&lt;li&gt;Do the self assessment questions repeatedly&lt;&#x2F;li&gt;
+&lt;li&gt;Get used to the Excel workflow for doing the accounting, finance calculations&lt;&#x2F;li&gt;
+&lt;li&gt;Check for study cards online, some OMSA alumnis prepared them, e.g. this one on &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;quizlet.com&#x2F;434208661&#x2F;mgt-8803-accounts-exam-1-flash-cards&#x2F;&quot;&gt;quizlet&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Misc.&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;As mentioned above, the first two modules are extremely difficult for me. I pulled three all-nighters at the library just to study for these 2 exams.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;classes-starting-next-semester&quot;&gt;Classes Starting Next Semester&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;CS 7643&lt;&#x2F;code&gt;: Deep Learning (DL)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;CSE 6242&lt;&#x2F;code&gt;: Data and Visual Analytics (DVA)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;ISYE 6740&lt;&#x2F;code&gt;: Computational Data Analytics (CDA)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;ISYE 8803&lt;&#x2F;code&gt;: High-Dimensional Data analytics (HDDA)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;MGT 6203&lt;&#x2F;code&gt;: Data Analytics in Business&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+        
+    </entry>
+</feed>

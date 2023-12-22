@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - package</title>
+    <subtitle>Personal Webpage</subtitle>
+    <link href="https://zebraalgebra-personal-page.netlify.app/tags/package/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://zebraalgebra-personal-page.netlify.app/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-12-03T00:00:00+00:00</updated>
+    <id>https://zebraalgebra-personal-page.netlify.app/tags/package/atom.xml</id>
+    <entry xml:lang="en">
+        <title>&lt;🐍 python&gt; Packaging and Publishing Python Projects</title>
+        <published>2023-12-03T00:00:00+00:00</published>
+        <updated>2023-12-03T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://zebraalgebra-personal-page.netlify.app/blog/03-003/" type="text/html"/>
+        <id>https://zebraalgebra-personal-page.netlify.app/blog/03-003/</id>
+        
+        <content type="html">&lt;p&gt;In this post, I will be writing about the steps of publishing a package, as well as what resources helped me the most.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Disclaimer: Since my package is a relatively simple and small one, this tutorial does not present the best practices on the process of packaging, publishing a project, but rather, a basic way of doing so.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;&#x2F;h2&gt;
+&lt;p&gt;I recently worked on a school project in the course &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;omscs.gatech.edu&#x2F;isye-6644-simulation-and-modeling-engineering-and-science&quot;&gt;ISYE6644 Simulation&lt;&#x2F;a&gt; and wrote some Python code for it.&lt;&#x2F;p&gt;
+&lt;p&gt;Throughout the process I was thinking: well, maybe if I can build, publish this as a Python package, and that people can run &lt;code&gt;pip install&lt;&#x2F;code&gt; to install it, wouldn’t that be pretty fun?&lt;&#x2F;p&gt;
+&lt;p&gt;After going through some tutorials and going through some documentations (which is not an entirely trivial process), I finally published the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;test.pypi.org&#x2F;project&#x2F;flusim&#x2F;&quot;&gt;package&lt;&#x2F;a&gt; on &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;test.pypi.org&#x2F;&quot;&gt;testpypi&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;..&#x2F;flusim.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The amazing tutorial that helped me the most is the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=5KEObONUkik&amp;amp;t=936s&amp;amp;pp=ygUZYXJqYW5jb2RlcyBweXRob24gcGFja2FnZQ%3D%3D&quot;&gt;Youtube video by ArjanCodes&lt;&#x2F;a&gt;, and I highly recommend checking it out.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;overview-of-the-process&quot;&gt;Overview of the Process&lt;&#x2F;h2&gt;
+&lt;p&gt;The process of building a project is roughly as follows:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;You need to have the source codes, and a &lt;code&gt;setup.py&lt;&#x2F;code&gt; file ready.&lt;&#x2F;li&gt;
+&lt;li&gt;Run &lt;code&gt;setuptools&lt;&#x2F;code&gt; on &lt;code&gt;setup.py&lt;&#x2F;code&gt; to build a distribution file.&lt;&#x2F;li&gt;
+&lt;li&gt;Check the generated distribution files using &lt;code&gt;twine&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Upload the package to &lt;code&gt;pypi&lt;&#x2F;code&gt; or &lt;code&gt;testpypi&lt;&#x2F;code&gt; - also using &lt;code&gt;twine&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Pretty straightforward, isn’t it?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-syntaxes&quot;&gt;The Syntaxes&lt;&#x2F;h2&gt;
+&lt;p&gt;You can check out my project directory structure at my &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ZebraAlgebra&#x2F;flusim&quot;&gt;Github repo&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In order for these commands in the following sections to work, you will first need to &lt;code&gt;pip install&lt;&#x2F;code&gt; the packages &lt;code&gt;twine, wheel, setuptools&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;setup-and-build&quot;&gt;Setup and Build&lt;&#x2F;h3&gt;
+&lt;p&gt;My &lt;code&gt;setup.py&lt;&#x2F;code&gt; file is configured as follows:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#282828;color:#fdf4c1aa;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#fa5c4b;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span&gt;setuptools &lt;&#x2F;span&gt;&lt;span style=&quot;color:#fa5c4b;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span&gt;setup, find_packages
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fa5c4b;&quot;&gt;with &lt;&#x2F;span&gt;&lt;span style=&quot;color:#fabd2f;&quot;&gt;open&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b8bb26;&quot;&gt;&amp;quot;app&#x2F;README.md&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b8bb26;&quot;&gt;&amp;quot;r&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#fa5c4b;&quot;&gt;as &lt;&#x2F;span&gt;&lt;span&gt;f:
+&lt;&#x2F;span&gt;&lt;span&gt;    long_description &lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;f.read()
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;setup(
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;    name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b8bb26;&quot;&gt;&amp;quot;flusim&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;    version&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b8bb26;&quot;&gt;&amp;quot;0.0.1&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;    description&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b8bb26;&quot;&gt;&amp;quot;Simulation, computation, visualization of some statistics for a small-scale flu-spread problem.&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;    long_description&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;long_description,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;    long_description_content_type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b8bb26;&quot;&gt;&amp;quot;text&#x2F;markdown&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;    package_dir&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b8bb26;&quot;&gt;&amp;quot;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b8bb26;&quot;&gt;&amp;quot;app&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;},
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;    author&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b8bb26;&quot;&gt;&amp;quot;Samuel Wang&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;    author_email&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b8bb26;&quot;&gt;&amp;quot;swang3068@gatech.edu&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;    url&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b8bb26;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;github.com&#x2F;ZebraAlgebra&#x2F;flu-   sim&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;    license&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b8bb26;&quot;&gt;&amp;quot;MIT&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;    packages&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;find_packages(where&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b8bb26;&quot;&gt;&amp;quot;app&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;),
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;After that, run the following in terminal (my terminal is git bash):&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282828;color:#fdf4c1aa;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;python setup.py bdist_wheel sdist
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;which will build:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;A &lt;code&gt;build&lt;&#x2F;code&gt; folder containing a copy of your source codes.&lt;&#x2F;li&gt;
+&lt;li&gt;A &lt;code&gt;dist&lt;&#x2F;code&gt; folder with a &lt;code&gt;.whl&lt;&#x2F;code&gt; (wheel) file, a &lt;code&gt;.tar.gz&lt;&#x2F;code&gt; file.&lt;&#x2F;li&gt;
+&lt;li&gt;An &lt;code&gt;.egg-info&lt;&#x2F;code&gt; containing some other metadata (in your source code folder).&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;check&quot;&gt;Check&lt;&#x2F;h3&gt;
+&lt;p&gt;Now one can use &lt;code&gt;twine&lt;&#x2F;code&gt; to check if things are alright via:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282828;color:#fdf4c1aa;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;twine check dist&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;*
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;and it will complain if some infos are not present; here, recall that &lt;code&gt;dist&lt;&#x2F;code&gt; is the folder built by &lt;code&gt;setuptools&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;publishing&quot;&gt;Publishing&lt;&#x2F;h3&gt;
+&lt;p&gt;To publish, first register an account on &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;pypi.org&#x2F;&quot;&gt;PyPI&lt;&#x2F;a&gt;, or the associated testing site &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;test.pypi.org&#x2F;&quot;&gt;test PyPI&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ArjanCodes recommends &lt;strong&gt;first upload it on test PyPI&lt;&#x2F;strong&gt;, since PyPI is the official index. Also, since recently PyPI closed its registration (due to spam registrations), one can only create accounts on test PyPI.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;To publish on PyPI, run:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282828;color:#fdf4c1aa;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;twine upload dist&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;*
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;and enter the credentials. To publish on test PyPI, modify the command to:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282828;color:#fdf4c1aa;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;twine upload -r testpypi dist&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fe8019;&quot;&gt;*
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Additional details: One might need to enable 2FA on test PyPI and generate tokens to succesfully publish a package, but the test PyPI site will walk you through these.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+        
+    </entry>
+</feed>

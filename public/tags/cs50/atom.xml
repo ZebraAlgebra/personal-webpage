@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - cs50</title>
+    <subtitle>Personal Webpage</subtitle>
+    <link href="https://zebraalgebra-personal-page.netlify.app/tags/cs50/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://zebraalgebra-personal-page.netlify.app/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-11-12T00:00:00+00:00</updated>
+    <id>https://zebraalgebra-personal-page.netlify.app/tags/cs50/atom.xml</id>
+    <entry xml:lang="en">
+        <title>&lt;✍️ courses&gt; Harvard&#x27;s CS50&#x27;s Intro. to AI with Python Review</title>
+        <published>2023-11-12T00:00:00+00:00</published>
+        <updated>2023-11-12T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://zebraalgebra-personal-page.netlify.app/blog/02-002-cs50/" type="text/html"/>
+        <id>https://zebraalgebra-personal-page.netlify.app/blog/02-002-cs50/</id>
+        
+        <content type="html">&lt;p&gt;In this post, I will be sharing my experience with Harvard’s online course - &lt;strong&gt;CS50’s Intro. to AI with Python Review&lt;&#x2F;strong&gt; (link to &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;pll.harvard.edu&#x2F;course&#x2F;cs50s-introduction-artificial-intelligence-python&quot;&gt;official site&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.edx.org&#x2F;learn&#x2F;artificial-intelligence&#x2F;harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python&quot;&gt;edX&lt;&#x2F;a&gt;).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Difficulty&lt;&#x2F;strong&gt;: 6.5 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Enjoyment&lt;&#x2F;strong&gt;: 9.5 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Taught&lt;&#x2F;strong&gt; by &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;brianyu.me&#x2F;&quot;&gt;Brain Yu&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Format&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;This course is offered on the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.edx.org&#x2F;&quot;&gt;edX&lt;&#x2F;a&gt; platform.&lt;&#x2F;li&gt;
+&lt;li&gt;It it an introductary course that touches upon different topics of AI and gives overviews on these topics.
+&lt;ul&gt;
+&lt;li&gt;Touches some data structure and algorithm stuffs (BFS, DFS, A*)&lt;&#x2F;li&gt;
+&lt;li&gt;as well as machine learning ideas (neural networks, NLP).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;The assignments are…
+&lt;ul&gt;
+&lt;li&gt;mostly graded by autograders, but they are really lenient and easy to work with.&lt;&#x2F;li&gt;
+&lt;li&gt;mostly of the form of completing an essential functionality of a function, with other parts being supplied beforehand.&lt;&#x2F;li&gt;
+&lt;li&gt;question prompts are very clear in what is expected for us to do.&lt;&#x2F;li&gt;
+&lt;li&gt;the related online communities in this course is also really helpful, as well as well-regulated. People are really active on those Discord channels.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;would-i-recommend-this-course&quot;&gt;Would I recommend this course?&lt;&#x2F;h2&gt;
+&lt;p&gt;Absolutely.&lt;&#x2F;p&gt;
+&lt;p&gt;All in all, I would recommend anyone with &lt;strong&gt;intermediate Python experience&lt;&#x2F;strong&gt; (such as knowledge of Python class syntaxes and experience with some of the modules in Python’s standard library) as well as wanting to learn some AI basics taking this course.&lt;&#x2F;p&gt;
+&lt;p&gt;One should also keep in mind that this course is &lt;em&gt;not intended to be an intensive, deep dive into the topics&lt;&#x2F;em&gt;. If you already had a specific topic in mind and wanted to dive real deep into it, perhaps this might not be the correct course for you.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;about-enrollment-and-certificate&quot;&gt;About Enrollment and Certificate&lt;&#x2F;h2&gt;
+&lt;p&gt;One can enroll in this course &lt;strong&gt;for free&lt;&#x2F;strong&gt;. Upon completion, Harvard will give the student a certificate hosted on their website (also for free); however, if you want a certificate offered by edX, then there is a fee to it.&lt;&#x2F;p&gt;
+&lt;p&gt;The certificate looks like this…&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;..&#x2F;edx.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ready-to-take-this-course&quot;&gt;Ready to take this course?&lt;&#x2F;h2&gt;
+&lt;p&gt;Additional details are well-documented on their &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;cs50.harvard.edu&#x2F;ai&#x2F;&quot;&gt;accompanying website&lt;&#x2F;a&gt;. Feel free to also check out &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.edx.org&#x2F;cs50&quot;&gt;their other courses&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,9 +1,12 @@
 +++
-title = "Packaging and Publishing Python Projects <🐍 Python>"
+title = "<🐍 python> Packaging and Publishing Python Projects"
 description = "Post on Python's Packaging"
 slug = "03-003"
 date = 2023-12-03
 draft = false
+
+[taxonomies]
+tags = ["python", "package"]
 +++
 
 In this post, I will be writing about the steps of publishing a package, as well as what resources helped me the most.

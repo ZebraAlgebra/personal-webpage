@@ -34,7 +34,7 @@ image = ""
 
 default_theme = "light"
 list_pages = true
-twitter_card = false
+twitter_card = true
 
 [[extra.header_nav]]
 en = { name = "/home/", url = "/" }

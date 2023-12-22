@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - ssg</title>
+    <subtitle>Personal Webpage</subtitle>
+    <link href="https://zebraalgebra-personal-page.netlify.app/tags/ssg/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://zebraalgebra-personal-page.netlify.app/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-11-02T00:00:00+00:00</updated>
+    <id>https://zebraalgebra-personal-page.netlify.app/tags/ssg/atom.xml</id>
+    <entry xml:lang="en">
+        <title>&lt;🛠️ tools&gt; Hello Personal Website 👋</title>
+        <published>2023-11-02T00:00:00+00:00</published>
+        <updated>2023-11-02T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://zebraalgebra-personal-page.netlify.app/blog/01-001/" type="text/html"/>
+        <id>https://zebraalgebra-personal-page.netlify.app/blog/01-001/</id>
+        
+        <content type="html">&lt;p&gt;Under the convention that every first thing starts with &lt;strong&gt;hello&lt;&#x2F;strong&gt;, the name of this post is self-explanatory.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-a-personal-website&quot;&gt;Why a personal website?&lt;&#x2F;h2&gt;
+&lt;p&gt;To have things to put on LinkedIn. Also as a way to jot down some thoughts and discoveries.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-is-this-site-generated&quot;&gt;How is this site generated?&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;short-answer&quot;&gt;Short answer&lt;&#x2F;h3&gt;
+&lt;p&gt;This site is built using &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;, with theme &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Speyll&#x2F;anemone&quot;&gt;anemone&lt;&#x2F;a&gt;, hosted on &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.netlify.com&#x2F;&quot;&gt;Netlify&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;not-so-short-answer&quot;&gt;Not-so-short answer&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;This static site is built using the static site generator (SSG) &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;, which is Rust🦀-based. SSG is a convenient tool for generating nice webpages from Markdown files supplied by the user.&lt;&#x2F;li&gt;
+&lt;li&gt;The theme used in this site (which can be roughly understood as a set of pre-built configurations and clever customizations) is called &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Speyll&#x2F;anemone&quot;&gt;anemone&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;This site is hosted on &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.netlify.com&#x2F;&quot;&gt;Netlify&lt;&#x2F;a&gt;, which provides services for hosting sites; for small sites, no fee is needed.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;how-to-get-started&quot;&gt;How to get started?&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Install &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.rust-lang.org&#x2F;tools&#x2F;install&quot;&gt;Rust&lt;&#x2F;a&gt; and &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;getting-started&#x2F;installation&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Browse the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;themes&#x2F;&quot;&gt;themes gallery&lt;&#x2F;a&gt;, find one that you like the most and clone that into your machine.&lt;&#x2F;li&gt;
+&lt;li&gt;Add contents.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;That’s basically it!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

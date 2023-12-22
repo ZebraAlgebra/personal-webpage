@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - gatech</title>
+    <subtitle>Personal Webpage</subtitle>
+    <link href="https://zebraalgebra-personal-page.netlify.app/tags/gatech/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://zebraalgebra-personal-page.netlify.app/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-11-03T00:00:00+00:00</updated>
+    <id>https://zebraalgebra-personal-page.netlify.app/tags/gatech/atom.xml</id>
+    <entry xml:lang="en">
+        <title>&lt;✍️ courses&gt; GT&#x27;s OMSA course review</title>
+        <published>2023-11-03T00:00:00+00:00</published>
+        <updated>2023-11-03T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://zebraalgebra-personal-page.netlify.app/blog/02-001-omsa/" type="text/html"/>
+        <id>https://zebraalgebra-personal-page.netlify.app/blog/02-001-omsa/</id>
+        
+        <content type="html">&lt;p&gt;Here is a list of courses I am taking &#x2F; planning to take in this program (for the C-track):&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: right&quot;&gt;&lt;strong&gt;Course #&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Semester&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Type&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Status&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;CSE 6040&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2023 Fall&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Core&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;▶️&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;ISYE 6501&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2023 Fall&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Core&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;▶️&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;ISYE 6644&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2023 Fall&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;OR Elect.&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;▶️&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;MGT 8803&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2023 Fall&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Core&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;▶️&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;CS 7643&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2024 Spring&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Track Elect.&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;❓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;CSE 6242&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2024 Spring&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Adv. Core&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;❓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;ISYE 6740&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2024 Spring&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Stat. Elect.&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;❓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;ISYE 8803&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2024 Spring&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Stat. Elect.&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;❓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;&lt;code&gt;MGT 6203&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;2024 Spring&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Adv. Core&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;❓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;cse-6040-computing-for-data-analysis&quot;&gt;CSE 6040 Computing for Data Analysis&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Difficulty&lt;&#x2F;strong&gt;: 5.0 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Enjoyment&lt;&#x2F;strong&gt;: 8.5 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Format&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;HW: Weekly basis. All Jupyter notebooks.&lt;&#x2F;li&gt;
+&lt;li&gt;Exams: 3 exams.
+&lt;ul&gt;
+&lt;li&gt;Open book, but no Github Copilot, posting exam questions on forums, or interacting with other people.&lt;&#x2F;li&gt;
+&lt;li&gt;Similar to homeworks and practice problems.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Projects: None.&lt;&#x2F;li&gt;
+&lt;li&gt;Content:
+&lt;ul&gt;
+&lt;li&gt;Basics of data wrangling and numerical computation in Python (data structures, Numpy, Scipy sparse matrices, Pandas)&lt;&#x2F;li&gt;
+&lt;li&gt;Basics of SQL (&lt;code&gt;SELECT&lt;&#x2F;code&gt;, &lt;code&gt;JOIN&lt;&#x2F;code&gt;, &lt;code&gt;WHERE&lt;&#x2F;code&gt;, &lt;code&gt;GROUPBY&lt;&#x2F;code&gt;… clauses).&lt;&#x2F;li&gt;
+&lt;li&gt;Several basic demos of ML algorithms (regression, K-means, PCA).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Tips&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Do HW as soon as possible. More difficult to complete hw under time pressure for coding HWs.&lt;&#x2F;li&gt;
+&lt;li&gt;Do practice questions before exam.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;isye-6501-introduction-to-analytics-modeling&quot;&gt;ISYE 6501 Introduction to Analytics Modeling&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Difficulty&lt;&#x2F;strong&gt;: 4.0 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Enjoyment&lt;&#x2F;strong&gt;: 8.5 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Format&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;HW: Weekly basis. All R markdowns, with a few exceptions:
+&lt;ul&gt;
+&lt;li&gt;For linear programming, Python’s PuLP is needed.&lt;&#x2F;li&gt;
+&lt;li&gt;For discrete event simulation, either Arena or Python’s SimPy are needed.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Exams: 3 exams.&lt;&#x2F;li&gt;
+&lt;li&gt;Project: 1 project, details released near the end of semester.&lt;&#x2F;li&gt;
+&lt;li&gt;Content: Learning how to use some ML models in R on data, assess model quality, as well as teaching some basic data science ideas.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Tips&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Get used to R and R markdown notebooks, as well as figuring out a suitable workflow, since students have to generate a report file every week.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;isye-6644-simulation&quot;&gt;ISYE 6644 Simulation&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Difficulty&lt;&#x2F;strong&gt;: 3.5 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Enjoyment&lt;&#x2F;strong&gt;: 8.0 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Format&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;HW: Weekly basis. Multiple choice questions on Canvas.&lt;&#x2F;li&gt;
+&lt;li&gt;Exams: 3 exams. Allows cheat sheets.&lt;&#x2F;li&gt;
+&lt;li&gt;Project: 1 project.&lt;&#x2F;li&gt;
+&lt;li&gt;Content:
+&lt;ul&gt;
+&lt;li&gt;Probabilities, statistics bootcamps.&lt;&#x2F;li&gt;
+&lt;li&gt;The Arena software,&lt;&#x2F;li&gt;
+&lt;li&gt;Theories for simulating random number generators and stochastic processes.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Tips&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Read Prof. Goldsman’s book on probabilities and stats.&lt;&#x2F;li&gt;
+&lt;li&gt;The tip for having a good score on exams is to compile good cheat sheets.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Misc.&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Prof. Goldsman’s lecture videos has some funny jokes.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;mgt-8803-business-fundamentals-for-analytics&quot;&gt;MGT 8803 Business Fundamentals for Analytics&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Difficulty&lt;&#x2F;strong&gt;: 8.5 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Enjoyment&lt;&#x2F;strong&gt;: 5.5 out of 10.0&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Format&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;HW: 2 small ones that accounts for 10% of total grade.&lt;&#x2F;li&gt;
+&lt;li&gt;Exams: 5 exams for each 5 modules (see below). Allows the use of excel. No cheat sheets.&lt;&#x2F;li&gt;
+&lt;li&gt;Project: None.&lt;&#x2F;li&gt;
+&lt;li&gt;Content: 5 modules
+&lt;ul&gt;
+&lt;li&gt;Financial Accounting&lt;&#x2F;li&gt;
+&lt;li&gt;Finance&lt;&#x2F;li&gt;
+&lt;li&gt;Supply Chain&lt;&#x2F;li&gt;
+&lt;li&gt;Business Strategy&lt;&#x2F;li&gt;
+&lt;li&gt;Marketing&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Tips&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;The first two modules are extremely packed with info. For people without background related to these fields, all the concepts in these modules can take a fiar while to be digested. Tips for studying for the first two exams
+&lt;ul&gt;
+&lt;li&gt;Do the self assessment questions repeatedly&lt;&#x2F;li&gt;
+&lt;li&gt;Get used to the Excel workflow for doing the accounting, finance calculations&lt;&#x2F;li&gt;
+&lt;li&gt;Check for study cards online, some OMSA alumnis prepared them, e.g. this one on &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;quizlet.com&#x2F;434208661&#x2F;mgt-8803-accounts-exam-1-flash-cards&#x2F;&quot;&gt;quizlet&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Misc.&lt;&#x2F;strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;As mentioned above, the first two modules are extremely difficult for me. I pulled three all-nighters at the library just to study for these 2 exams.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;classes-starting-next-semester&quot;&gt;Classes Starting Next Semester&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;CS 7643&lt;&#x2F;code&gt;: Deep Learning (DL)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;CSE 6242&lt;&#x2F;code&gt;: Data and Visual Analytics (DVA)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;ISYE 6740&lt;&#x2F;code&gt;: Computational Data Analytics (CDA)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;ISYE 8803&lt;&#x2F;code&gt;: High-Dimensional Data analytics (HDDA)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;MGT 6203&lt;&#x2F;code&gt;: Data Analytics in Business&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+        
+    </entry>
+</feed>

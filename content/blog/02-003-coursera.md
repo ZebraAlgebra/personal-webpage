@@ -1,8 +1,11 @@
 +++
-title = "Stanford Online's Algorithm Speciailization on Coursera Review <✍️ courses>"
+title = "<✍️ courses> Stanford Online's Algorithm Speciailization on Coursera Review"
 description = ""
 slug = "02-003-coursera"
 date = 2023-11-18
+
+[taxonomies]
+tags = ["course", "coursera"]
 +++
 
 ![](../coursera.png)

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - coursera</title>
+    <subtitle>Personal Webpage</subtitle>
+    <link href="https://zebraalgebra-personal-page.netlify.app/tags/coursera/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://zebraalgebra-personal-page.netlify.app/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-11-18T00:00:00+00:00</updated>
+    <id>https://zebraalgebra-personal-page.netlify.app/tags/coursera/atom.xml</id>
+    <entry xml:lang="en">
+        <title>&lt;✍️ courses&gt; Stanford Online&#x27;s Algorithm Speciailization on Coursera Review</title>
+        <published>2023-11-18T00:00:00+00:00</published>
+        <updated>2023-11-18T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://zebraalgebra-personal-page.netlify.app/blog/02-003-coursera/" type="text/html"/>
+        <id>https://zebraalgebra-personal-page.netlify.app/blog/02-003-coursera/</id>
+        
+        <content type="html">&lt;p&gt;&lt;img src=&quot;..&#x2F;coursera.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I recently completed the algorithms specialization course offered by Stanford online on Coursera. In this post, I will be sharing my thoughts and experience about this course.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Difficulty&lt;&#x2F;strong&gt;: 8.0 out of 10.0&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Enjoyment&lt;&#x2F;strong&gt;: 9.5 out of 10.0&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;It was a fun ride.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Learned a lot, struggled a lot, enjoyed a lot.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Prof. Tim Roughgarden succeeded in presenting the aesthetical aspects of algorithm design with extreme clarity and deep insights.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Taught&lt;&#x2F;strong&gt; by Prof. Tim Roughgarden&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Structure&lt;&#x2F;strong&gt;: Four modules, each with four programming assignments, four quizes, and one final exam.
+&lt;ul&gt;
+&lt;li&gt;Quizzes are mostly multiple choice questions, but with limited answer attempts.&lt;&#x2F;li&gt;
+&lt;li&gt;Programming assignments are mostly geared towards implementing the algorithms taught in course.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Contents&lt;&#x2F;strong&gt;: Mostly covers&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;what-i-liked-about-this-course&quot;&gt;What I liked about this course:&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;on-contents&quot;&gt;On Contents&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;“Algorithmic design paradigms” is a strong emphasis in this course, instead of problem types &#x2F; data structures, which makes many concepts natural in its own way.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Well-motivated contents, proofs explained with extreme clarity, and a good selection of topics.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Some sections are marked as optional, giving the flexibility for the learners to choose what to learn. For example, I personally really appreciated the freedom to not to deal with red-black trees 🤪.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Personal favorites&lt;&#x2F;strong&gt;: Karger’s ridiculous algorithm, MST algorithms, shortest path algorithms (Dijkstra, Bellman-Ford, Floyd-Warshall, Johnson), Huffman codes, optimal binary trees, knapsack.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;on-assignments&quot;&gt;On Assignments&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;✍️ &lt;strong&gt;For the nonprogramming assignments&lt;&#x2F;strong&gt;: personally, I really enjoyed thinking through those “what if we use this on that &#x2F; what if we modify this part of that” - type of questions.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;🖥️ &lt;strong&gt;For the programming assignments&lt;&#x2F;strong&gt;: these had clear instructions, and learners have the freedom to choose which programming language to use when approaching the problems. Most of the assignments are practicing writing down an algorithm taught in class, and solve a problem supplied with a reasonably large input size.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;In case one gets stuck, the Coursera Forum also has many valuable discussions that one can find help &#x2F; inspiration from.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;suggestions-and-nitpicks&quot;&gt;Suggestions and Nitpicks&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The content on &lt;strong&gt;Kosaraju’s algorithm&lt;&#x2F;strong&gt; for strongly connected components could be improved. The different names for various subroutines, and the lack of a final-put-together pseudo code for this algorithm made things a bit hard to grasp, let along the notion of a “magic ordering” on the vertices.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;The contents are mostly delivered through handwritings. Sometimes the handwritings are messy, which hinders the learning experience by a bit (no pun intended).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;The pseudocodes are written mostly in 1-indexed fashion instead of 0-indexed.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Would hope to see some suggested run time estimates in assignments, but perhaps this is intended for learners to push the limits.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
