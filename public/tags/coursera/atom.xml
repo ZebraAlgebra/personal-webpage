@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title> - coursera</title>
     <subtitle>Personal Webpage</subtitle>
-    <link href="https://zebraalgebra-personal-page.netlify.app/tags/coursera/atom.xml" rel="self" type="application/atom+xml"/>
-    <link href="https://zebraalgebra-personal-page.netlify.app/"/>
+    <link rel="self" type="application/atom+xml" href="https://zebraalgebra-personal-page.netlify.app/tags/coursera/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://zebraalgebra-personal-page.netlify.app/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2023-11-18T00:00:00+00:00</updated>
     <id>https://zebraalgebra-personal-page.netlify.app/tags/coursera/atom.xml</id>
@@ -11,13 +11,19 @@
         <title>&lt;✍️ courses&gt; Stanford Online&#x27;s Algorithm Speciailization on Coursera Review</title>
         <published>2023-11-18T00:00:00+00:00</published>
         <updated>2023-11-18T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://zebraalgebra-personal-page.netlify.app/blog/02-003-coursera/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://zebraalgebra-personal-page.netlify.app/blog/02-003-coursera/"/>
         <id>https://zebraalgebra-personal-page.netlify.app/blog/02-003-coursera/</id>
         
-        <content type="html">&lt;p&gt;&lt;img src=&quot;..&#x2F;coursera.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://zebraalgebra-personal-page.netlify.app/blog/02-003-coursera/">&lt;p&gt;&lt;img src=&quot;..&#x2F;coursera.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;I recently completed the algorithms specialization course offered by Stanford online on Coursera. In this post, I will be sharing my thoughts and experience about this course.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;&#x2F;h2&gt;
 &lt;ul&gt;

@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title> - python</title>
     <subtitle>Personal Webpage</subtitle>
-    <link href="https://zebraalgebra-personal-page.netlify.app/tags/python/atom.xml" rel="self" type="application/atom+xml"/>
-    <link href="https://zebraalgebra-personal-page.netlify.app/"/>
+    <link rel="self" type="application/atom+xml" href="https://zebraalgebra-personal-page.netlify.app/tags/python/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://zebraalgebra-personal-page.netlify.app/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2023-12-03T00:00:00+00:00</updated>
     <id>https://zebraalgebra-personal-page.netlify.app/tags/python/atom.xml</id>
@@ -11,13 +11,19 @@
         <title>&lt;🐍 python&gt; Packaging and Publishing Python Projects</title>
         <published>2023-12-03T00:00:00+00:00</published>
         <updated>2023-12-03T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://zebraalgebra-personal-page.netlify.app/blog/03-003/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://zebraalgebra-personal-page.netlify.app/blog/03-003/"/>
         <id>https://zebraalgebra-personal-page.netlify.app/blog/03-003/</id>
         
-        <content type="html">&lt;p&gt;In this post, I will be writing about the steps of publishing a package, as well as what resources helped me the most.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://zebraalgebra-personal-page.netlify.app/blog/03-003/">&lt;p&gt;In this post, I will be writing about the steps of publishing a package, as well as what resources helped me the most.&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Disclaimer: Since my package is a relatively simple and small one, this tutorial does not present the best practices on the process of packaging, publishing a project, but rather, a basic way of doing so.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
@@ -97,13 +103,19 @@
         <title>&lt;🐍 python&gt; Joy with PuLP</title>
         <published>2023-11-09T00:00:00+00:00</published>
         <updated>2023-11-09T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://zebraalgebra-personal-page.netlify.app/blog/03-001/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://zebraalgebra-personal-page.netlify.app/blog/03-001/"/>
         <id>https://zebraalgebra-personal-page.netlify.app/blog/03-001/</id>
         
-        <content type="html">&lt;h2 id=&quot;foreword&quot;&gt;Foreword&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://zebraalgebra-personal-page.netlify.app/blog/03-001/">&lt;h2 id=&quot;foreword&quot;&gt;Foreword&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;img src=&quot;..&#x2F;pulp.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;code&gt;PuLP&lt;&#x2F;code&gt; is a powerful Python module for solving linear programming problems.&lt;&#x2F;p&gt;
 &lt;p&gt;I used this tool recently in one of the homeworks of &lt;code&gt;ISYE 6501&lt;&#x2F;code&gt; - &lt;em&gt;Introduction to Analytics Modeling&lt;&#x2F;em&gt;, where we were asked to solve &lt;em&gt;the diet problem&lt;&#x2F;em&gt; - similar to the one given in this &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;neos-guide.org&#x2F;case-studies&#x2F;om&#x2F;the-diet-problem&#x2F;&quot;&gt;link&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -183,6 +195,105 @@
 &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#928374;&quot;&gt;# {&amp;#39;Oreo&amp;#39;: 2.0, &amp;quot;Reese&amp;#39;s_Puffs&amp;quot;: 1.0}
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Now Johnny’s happy 😊.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>&lt;🐍 python&gt; Python package management</title>
+        <published>2023-02-08T00:00:00+00:00</published>
+        <updated>2023-02-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://zebraalgebra-personal-page.netlify.app/blog/03-004/"/>
+        <id>https://zebraalgebra-personal-page.netlify.app/blog/03-004/</id>
+        
+        <content type="html" xml:base="https://zebraalgebra-personal-page.netlify.app/blog/03-004/">&lt;p&gt;In this post, I will talk about the Python tools I use for managing Python packages.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;&#x2F;h2&gt;
+&lt;p&gt;We often install packages via &lt;code&gt;pip&lt;&#x2F;code&gt; or &lt;code&gt;pip3&lt;&#x2F;code&gt;. For example, we can install numpy via:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282828;color:#fdf4c1aa;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;pip install numpy
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Most of the time, this command will install things globally, so all Python files can freely import this package, which can be convenient.&lt;&#x2F;p&gt;
+&lt;p&gt;However, some of the issues I encountered with this approach:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Extra steps are needed to directly invoke things like &lt;code&gt;black&lt;&#x2F;code&gt; formatter or things like &lt;code&gt;cowsay&lt;&#x2F;code&gt; from the command line, if I needed, if I don’t want to type &lt;code&gt;python -m black some_python_filename.py&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Sometimes I need to use older versions of packages for homeworks. Tweaking package versions on the global scope doesn’t feel right with me - what if I forgot to switch it back?&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;The solution I found for my first problem was to use &lt;code&gt;pipx&lt;&#x2F;code&gt;, and the solution to my second one is to use &lt;strong&gt;virtual environments&lt;&#x2F;strong&gt; (specifically, I used &lt;code&gt;virtualenv&lt;&#x2F;code&gt;).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;pipx&quot;&gt;&lt;code&gt;pipx&lt;&#x2F;code&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;code&gt;pipx&lt;&#x2F;code&gt; is just like &lt;code&gt;pip&lt;&#x2F;code&gt;, with other package managing functionalities.&lt;&#x2F;p&gt;
+&lt;p&gt;To use it, install &lt;code&gt;pipx&lt;&#x2F;code&gt;, and do &lt;code&gt;pipx install packagename&lt;&#x2F;code&gt; to install packages. The command &lt;code&gt;pipx ensurepath&lt;&#x2F;code&gt; will ensure the &lt;code&gt;pipx&lt;&#x2F;code&gt; binary directories are added to &lt;code&gt;PATH&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Now I can happily use &lt;code&gt;cowsay&lt;&#x2F;code&gt; (the &lt;code&gt;-c&lt;&#x2F;code&gt; flag indicates characters to do the cowsay, and the &lt;code&gt;-t&lt;&#x2F;code&gt; flag indicates what text to say):&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282828;color:#fdf4c1aa;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;cowsay -c tux -t &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b8bb26;&quot;&gt;&amp;quot;penguinsay&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre style=&quot;background-color:#282828;color:#fdf4c1aa;&quot;&gt;&lt;code&gt;&lt;span&gt;  __________
+&lt;&#x2F;span&gt;&lt;span&gt;| penguinsay |
+&lt;&#x2F;span&gt;&lt;span&gt;  ==========
+&lt;&#x2F;span&gt;&lt;span&gt;               \
+&lt;&#x2F;span&gt;&lt;span&gt;                \
+&lt;&#x2F;span&gt;&lt;span&gt;                 \
+&lt;&#x2F;span&gt;&lt;span&gt;                  .--.
+&lt;&#x2F;span&gt;&lt;span&gt;                 |o_o |
+&lt;&#x2F;span&gt;&lt;span&gt;                 |:_&#x2F; |
+&lt;&#x2F;span&gt;&lt;span&gt;                &#x2F;&#x2F;   \ \
+&lt;&#x2F;span&gt;&lt;span&gt;               (|     | )
+&lt;&#x2F;span&gt;&lt;span&gt;              &#x2F;&amp;#39;\_   _&#x2F;`\
+&lt;&#x2F;span&gt;&lt;span&gt;              \___)=(___&#x2F;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;em&gt;Other useful commands&lt;&#x2F;em&gt;: One can use &lt;code&gt;pipx list&lt;&#x2F;code&gt; to list all packages, and use &lt;code&gt;pipx uninstall packagename&lt;&#x2F;code&gt; to uninstall things.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;virtualenv&quot;&gt;&lt;code&gt;virtualenv&lt;&#x2F;code&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;In a nutshell, virtual environments allows users to install packages and make it available only in the specified directory.&lt;&#x2F;p&gt;
+&lt;p&gt;There are many ways to create and manage virtual environments. I like to use &lt;code&gt;virtualenv&lt;&#x2F;code&gt;. Other built-in Python tools like &lt;code&gt;venv&lt;&#x2F;code&gt; is also commonly-used. Some people also use &lt;code&gt;anaconda&lt;&#x2F;code&gt; to manage virtual environments.&lt;&#x2F;p&gt;
+&lt;p&gt;The workflow are roughly as follows.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Think of where you want to start a virtual environment.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If you already have an existing one, &lt;code&gt;cd&lt;&#x2F;code&gt; into that directory, run:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282828;color:#fdf4c1aa;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;virtualenv .
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;If you want to create a new one with name &lt;code&gt;myenv&lt;&#x2F;code&gt;, &lt;code&gt;cd&lt;&#x2F;code&gt; into the parent directory of your desired directory for &lt;code&gt;myenv&lt;&#x2F;code&gt;, and run:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282828;color:#fdf4c1aa;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt;virtualenv myenv
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Now if you go inside your directory, you will see several new directories are created in there. It would look something like this:&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;pre style=&quot;background-color:#282828;color:#fdf4c1aa;&quot;&gt;&lt;code&gt;&lt;span&gt;.
+&lt;&#x2F;span&gt;&lt;span&gt;├── .gitignore
+&lt;&#x2F;span&gt;&lt;span&gt;├── bin
+&lt;&#x2F;span&gt;&lt;span&gt;├── lib
+&lt;&#x2F;span&gt;&lt;span&gt;└── pyvenv.cfg
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;To activate the virtual environment, depending on which shell you are using:&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;ul&gt;
+&lt;li&gt;For &lt;code&gt;bash&lt;&#x2F;code&gt;, &lt;code&gt;zsh&lt;&#x2F;code&gt;, run:&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#282828;color:#fdf4c1aa;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#fabd2f;&quot;&gt;source&lt;&#x2F;span&gt;&lt;span style=&quot;color:#fdf4c1;&quot;&gt; .&#x2F;bin&#x2F;activate
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using other shells - such as Window’s command line, or Powershell, or &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;fishshell.com&#x2F;&quot;&gt;fish&lt;&#x2F;a&gt;(this is the one I use), or nu, than you’ll need to change &lt;code&gt;activate&lt;&#x2F;code&gt; to &lt;code&gt;activate.bat&lt;&#x2F;code&gt; (command line), or &lt;code&gt;activate.ps1&lt;&#x2F;code&gt; (for Powershell), or &lt;code&gt;activate.fish&lt;&#x2F;code&gt; (for fish shell), or &lt;code&gt;activate.nu&lt;&#x2F;code&gt; (for nu shells). One can look at which activate files are present in the new &lt;code&gt;bin&lt;&#x2F;code&gt; directory to determine which script to use.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;After that, the appearance of your shell prompt should change, indicating that the virtual environment has been activated. After that, you may install all the Python packages you needed - these installations will only modify the files inside your current directory.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;To deactivate, simply type &lt;code&gt;deactivate&lt;&#x2F;code&gt; in your shell.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
 </content>
         
     </entry>

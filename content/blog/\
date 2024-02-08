@@ -1,0 +1,38 @@
++++
+title = "<🛠️ tools> Getting into Linux 🐧"
+description = "Post on Getting into Linux"
+slug = "01-002"
+date = 2023-02-09
+draft = false
+
+[taxonomies]
+tags = ["linux", "tools"]
++++
+
+![](../linux.png)
+
+My old laptop couldn't run Windows 11 smoothly, so I installed Linux, and things worked pretty well.
+
+In this post, I will be 
+
+## My reasons for switching to Linux
+
+1. The built-in Bash. Windows' Powershell, Command Prompt have esoteric syntaxes for most of the stuffs. I used Git Bash on Windows for quite a long time, but it is just a bit more clunky.
+2. Most things are open source, and many things are free. Theoretically, I can download stuffs and tweak it to my liking.
+3. My old computer can run it smoothly. Many programs are fast on Linux.
+4. Fresh installs does not contain unwanted programs (McAfee, XBox gamebox, Microsoft Edge, OneDrive).
+5. Easy to configure - many things can be configured via doing text-editing.
+6. Most installations can be done from command line, and most of the time restarts are not required.
+7. For many tech issues I have, solutions can be found easily online; for Windows, many fixes often doesn't apply to mine.
+8. Visually, many Linux distros just look better than Windows (or can easily be configured to be better).
+
+## How to Install?
+
+I downloaded the ISO files, and used [ventoy](https://www.ventoy.net/en/index.html) with an external hard drive to 
+
+## Distros I tried
+
+XUbuntu, Linux Mint, Ubuntu, Arch (current).
+
+I tried XUbuntu both in a virtual box and in WSL (Windows subsystem Linux)
+
