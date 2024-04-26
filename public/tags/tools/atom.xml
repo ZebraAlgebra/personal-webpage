@@ -63,7 +63,7 @@
         
         <content type="html" xml:base="https://zebraalgebra-personal-page.netlify.app/blog/01-002/">&lt;p&gt;&lt;img src=&quot;..&#x2F;linux.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;My old laptop couldn’t run Windows 11 smoothly, so I installed Linux, and things worked pretty well.&lt;&#x2F;p&gt;
-&lt;p&gt;In this post, I will be &lt;&#x2F;p&gt;
+&lt;p&gt;In this post, I will be&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;my-reasons-for-switching-to-linux&quot;&gt;My reasons for switching to Linux&lt;&#x2F;h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The built-in Bash. Windows’ Powershell, Command Prompt have esoteric syntaxes for most of the stuffs. I used Git Bash on Windows for quite a long time, but it is just a bit more clunky.&lt;&#x2F;li&gt;
@@ -80,10 +80,10 @@
 &lt;p&gt;I would recommend either dual booting or just straight-up install Linux. For my case, since I needed Honorlock (an infamous exam proctoring tool) - which both requires using it in Windows and using it in Google Chrome - for OMSA, I had to do dual booting.&lt;&#x2F;p&gt;
 &lt;p&gt;However, since setting up dual-boot requires the user to do the memory partitioning, I had messed up many time and straight-up wiped out my old files (including some unfinished homework), dual-booting can be kind of tricky, so if you are interested in doing so, I strongly recommend backing up your files.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;distros-i-tried&quot;&gt;Distros I tried&lt;&#x2F;h2&gt;
-&lt;p&gt;Xubuntu, Linux Mint, Ubuntu, Arch; my memories for Mint and Xubuntu are a bit vague, so I will only be comparing Ubuntu and Arch.&lt;&#x2F;p&gt;
+&lt;p&gt;Xubuntu, Linux Mint, Ubuntu, Arch, EndeavorOS; my memories for Mint and Xubuntu are a bit vague, so I will only be comparing Ubuntu and Arch.&lt;&#x2F;p&gt;
 &lt;p&gt;Ubuntu is a popular distro, and the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;askubuntu.com&#x2F;&quot;&gt;askubuntu&lt;&#x2F;a&gt; contains many helpful stuffs. It felt pretty stable, looks nice out of the box (by default, it uses &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.gnome.org&#x2F;&quot;&gt;GNOME&lt;&#x2F;a&gt;).&lt;&#x2F;p&gt;
-&lt;p&gt;Arch (the de facto “BTW” distro) is the one I use (BTW) now. It has great &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;wiki.archlinux.org&#x2F;&quot;&gt;wiki&lt;&#x2F;a&gt;, great and active forum to lookup for stuffs, and phenomenal package manager (pacman) compared to that of Ubuntu (apt). It is a &lt;strong&gt;rolling release&lt;&#x2F;strong&gt; distro (in contrast to &lt;strong&gt;stable release&lt;&#x2F;strong&gt; distros like Ubuntu), so the users can often try out newest packages, which might comes with the risk of breaking the system.&lt;&#x2F;p&gt;
-&lt;p&gt;Arch is harder to install, but the process forces the user to go into the Arch wiki to learn stuffs. I will be making another post on this.&lt;&#x2F;p&gt;
+&lt;p&gt;I run Arch (the de facto “BTW” distro) on my old PC. It has great &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;wiki.archlinux.org&#x2F;&quot;&gt;wiki&lt;&#x2F;a&gt;, great and active forum to lookup for stuffs, and phenomenal package manager (pacman) compared to that of Ubuntu (apt). It is a &lt;strong&gt;rolling release&lt;&#x2F;strong&gt; distro (in contrast to &lt;strong&gt;stable release&lt;&#x2F;strong&gt; distros like Ubuntu), so the users can often try out newest packages, which might comes with the risk of breaking the system. Arch is harder to install, but the process forces the user to go into the Arch wiki to learn stuffs. I will be making another post on this.&lt;&#x2F;p&gt;
+&lt;p&gt;I run EndeavorOS on my new PC. It is also Arch-based, but makes installation of some stuffs a bit more easier. For example, the user can install i3-wm by going through the setup prompts when starting the installation process, where there are some official templates readily avaiable provided by the EndeavorOS team.&lt;&#x2F;p&gt;
 </content>
         
     </entry>
